@@ -1,14 +1,6 @@
 import streamlit as st
 
-st.set_page_config(
-    page_title="IND320 Reservoir Project",
-    page_icon="💧"
-)
-
-st.title("IND320 Reservoir Project")
-
-st.write("""
-Welcome to my IND320 Streamlit application.
-
-Use the sidebar to navigate between the different pages.
-""")
+st.set_page_config(page_title="IND320 Electricity and Reservoirs")
+st.title("IND320: Electricity and Reservoirs")
+st.write("Welcome! Use the sidebar to explore Norwegian reservoir levels and electricity transfers. " \
+"Reservoir data comes directly from NVE. Electricity graphs use prepared ENTSO-E data from MongoDB when available.")
